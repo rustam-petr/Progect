@@ -188,24 +188,25 @@ body {
 .registr__content {
     width: 100%;
     box-shadow: -7px 0px 10px -9px #332208;
+    padding: 50px 0 50px 0;
 }
 
 .registr__title {
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 29px;
     margin-bottom: 25px;
     padding-top: 10px;
     text-shadow: 1px 1px 2px #c5ac2d;
 }
-.come{
-  font-size: 50px;
-  margin-bottom: 20px;
+.come {
+    font-size: 50px;
+    margin-bottom: 20px;
 }
-.reg{
-     font-size: 50px;
-     margin-bottom: 50px;
+.reg {
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 .registr__input {
     display: block;
@@ -222,22 +223,30 @@ body {
     color: #1b1818;
     padding-left: 10px;
 }
-.registr__text{
+.registr__text {
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
-     margin:30px 0px;
+    margin: 30px 0px;
     text-shadow: 0px 1px 1px #c5ac2d;
+}
+.registr__btn-link {
+    transition: all 0.5s;
+    color: #fefefe;
+}
+.registr__btn-link:hover {
+    color: #c5ac2d;
 }
 .registr__btn {
     text-transform: uppercase;
     color: #fefefe;
     display: inline-block;
-    padding: 16px 36px 15px;
+    padding: 20px 50px 15px;
     background-color: #c5ac2d;
     margin-top: 50px;
     margin-bottom: 20px;
+    margin-left: 30px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -463,6 +472,51 @@ body {
 }
 .footer__social-link {
     margin: 0 15px;
+}
+.footer__form {
+    width: 200px;
+}
+.footer__title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fefefe;
+    margin-bottom: 5px;
+}
+.footer__input {
+    display: block;
+    padding: 5px 0;
+      margin-top: 20px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #fefefe;
+    background-color: #332208;
+    color: #fefefe;
+}
+.footer__input::placeholder {
+    line-height: 19px;
+    font-size: 12px;
+    color: #fefefe;
+    padding-left: 10px;
+}
+.footer__btn {
+    text-transform: uppercase;
+    color: #fefefe;
+    padding: 10px 26px 10px;
+    background-color: #c5ac2d;
+    margin-top: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+.footer__btn:hover {
+    color: #c5ac2d;
+    background: #fefefe;
+    border: 1px solid #c5ac2d;
 }
 .footer__text {
     color: #69440c;

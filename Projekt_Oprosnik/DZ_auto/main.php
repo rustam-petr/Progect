@@ -150,7 +150,7 @@
         <div class="container">
             <div class="registr__inner">
                 <div class="registr__content">
-                    <form class="registr__form" action="main3.php" method="post">
+                    <form class="registr__form" action="main1.php" method="post">
                         <h3 class="registr__title">ЗАРЕГИСТРИРУЙСЯ И ПРОЙДИ ОПРОС</h3>
                         <input class="registr__input" type="text" name="Name" placeholder="Имя" tabindex="1" autofocus>
                         <input class="registr__input" type="text" name="Password" placeholder="Пароль" tabindex="2">
@@ -290,29 +290,33 @@
     <!-- footer-->
     <footer class="footer">
         <div class="container">
-            <div class="footer__top">
-                <a class="application-btn" href="#">Скачать приложение</a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a class="menu__list-link" href="#">О НАС</a></li>
-                        <li class="menu__item"><a class="menu__list-link" href="#">АВТОПАРК</a></li>
-                        <li class="menu__item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
-                        <li class="menu__item"><a class="menu__list-link" href="#">УСЛОВИЯ</a></li>
-                        <li class="menu__item"><a class="menu__list-link" href="#">КОНТАКТЫ</a></li>
-                    </ul>
-                </nav>
-                <a class="phone" href="tel:xxxxxxxxxxxx">+375 (29) 712 51 55 (МТС)</a>
-            </div>
-            <ul class="footer__social">
-                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-img"
-                            src="img/facebook.png"></a></li>
-                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-img"
-                            src="img/instagram.png"></a></li>
-                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-img"
-                            src="img/email.png"></a></li>
-            </ul>
-            <div class="footer__text">
-                Онлайн-опрос © 2021 ZaicevRustam Все права защищены
+            <div class="footer__inner">
+                <div class="footer__top">
+                    <form class="footer__form" action="main3.php" method="post">
+                        <p class="footer__title">Войти под правами администратора</p>
+                        <input class="footer__input" type="text" name="email" placeholder="Email" autofocus>
+                        <input class="footer__input" type="text" name="password" placeholder="Password">
+                        <button class="footer__btn" type="submit">Войти</button>
+                    </form>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a class="menu__list-link" href="#">О НАС</a></li>
+                            <li class="menu__item"><a class="menu__list-link" href="#">АВТОПАРК</a></li>
+                            <li class="menu__item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
+                            <li class="menu__item"><a class="menu__list-link" href="#">УСЛОВИЯ</a></li>
+                            <li class="menu__item"><a class="menu__list-link" href="#">КОНТАКТЫ</a></li>
+                        </ul>
+                    </nav>
+                    <a class="phone" href="tel:xxxxxxxxxxxx">+xx (xxx) xxx xx xx</a>
+                </div>
+                <ul class="footer__social">
+                    <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-img" src="img/facebook.png"></a></li>
+                    <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-img" src="img/instagram.png"></a></li>
+                    <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-img" src="img/email.png"></a></li>
+                </ul>
+                <div class="footer__text">
+                    Онлайн-опрос © 2021 ZaicevRustam Все права защищены
+                </div>
             </div>
         </div>
     </footer>
