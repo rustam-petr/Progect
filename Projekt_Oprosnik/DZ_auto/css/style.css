@@ -13,6 +13,10 @@ body {
     line-height: 19px;
     color: #1b1818;
 }
+/*отступ на странице администратора*/
+.book {
+    padding-top: 20px;
+}
 
 /* заливка цвета header */
 .header {
@@ -30,7 +34,8 @@ body {
     display: flex;
 }
 .menu__item {
-    margin: 0 15px;
+    margin: 0px 15px;
+    padding-top: 15px;
 }
 /* оформление меню */
 .menu__list-link {
@@ -51,7 +56,7 @@ body {
 .phone {
     color: #fefefe;
     font-size: 18px;
-    line-height: 21px;
+    /* line-height: 21px; */
 }
 .phone:hover {
     color: #fefefe;
@@ -194,23 +199,25 @@ body {
 .registr__title {
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 29px;
+    font-size: 48px;
+    line-height: 58px;
     margin-bottom: 25px;
     padding-top: 10px;
-    text-shadow: 1px 1px 2px #c5ac2d;
+    text-shadow: 2px 2px 2px #c5ac2d;
 }
 .come {
     font-size: 50px;
     margin-bottom: 20px;
 }
 .reg {
-    font-size: 50px;
+    font-size: 48px;
+    line-height: 58px;
     margin-bottom: 50px;
+    color: #400004;
 }
 .registr__input {
     display: block;
-    padding: 15px 0;
+    padding: 25px 0;
     width: 60%;
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
@@ -229,7 +236,7 @@ body {
     font-size: 20px;
     line-height: 29px;
     margin: 30px 0px;
-    text-shadow: 0px 1px 1px #c5ac2d;
+    text-shadow: 0px 1px 1px #023307;
 }
 .registr__btn-link {
     transition: all 0.5s;
@@ -264,7 +271,7 @@ body {
 /*------------------------ Стилизация class="benefits"----------------------*/
 
 .benefits {
-    padding: 50px 0;
+    padding: 100px 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .benefits__title {
@@ -487,7 +494,7 @@ body {
 .footer__input {
     display: block;
     padding: 5px 0;
-      margin-top: 20px;
+    margin-top: 20px;
     width: 80%;
     border: none;
     border-bottom: 1px solid #fefefe;
